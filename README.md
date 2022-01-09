@@ -91,10 +91,11 @@ A class that test GraphAlgo function. <br />
 
 In addition, on the wiki page you can see a full explanation of how to run and a video of the game
 --------------------------------------------------------------------------------------------------
-
+<br />
 UML
 -----
 ![image](https://user-images.githubusercontent.com/93676748/148682245-038dac57-5301-4551-8e54-20a20776753c.png)
+<br />
 Results
 -------
 | level | grade | moves |
