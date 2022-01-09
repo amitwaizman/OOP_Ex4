@@ -24,9 +24,9 @@ A class for the implementation of Pokemon placement to the agent, object: listp-
 *json_Agents: Loading agent from the server <br />
 *jsoninfo: Loading info from the server <br />
 **client:** <br />
-communicating with the "server"
+communicating with the "server" <br />
 **main:**<br />
-Run the game
+Run the game <br />
 **Node:**<br />
 A class that represents node data, object: id, pos, weight, tag and dict to edge in and dict to edge out. <br />
 **Edge:** <br />
