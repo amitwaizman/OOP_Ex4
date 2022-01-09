@@ -49,6 +49,7 @@ A class that implements the interface GraphInterface, object: sizeNode, sizeEdge
 * add_node:adds a node to the graph. <br />
 * remove_node:removes a node from the graph. <br />
 * remove_edge:removes an edge from the graph. <br />
+
 **GraphAlgo:** <br />
 A class that implements the interface GraphAlgoInterface, object: DiGraph Graph. <br />
 -function: <br />
