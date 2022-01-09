@@ -70,6 +70,10 @@ A class that implements the interface GraphAlgoInterface, object: DiGraph Graph.
 We implemented the Dijkstra algorithm the algorithm gets a nodes src and updates שccording to the algorithm the weight of each nodes the minimum distance from src to the node,the algorithm returns a dictionary representing for each nodes the node that preceding in the path from the src to the node.<br />
 ***Test:***  <br />
 A class to check the AlgoPokmen by unittest <br />
+**TestDiGraph:** <br />
+A class that test DiGraph function. <br />
+**TestGraphAlgo:** <br />
+A class that test GraphAlgo function. <br />
 
 
 UML
