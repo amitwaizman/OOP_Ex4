@@ -1,0 +1,141 @@
+@startuml
+'https://plantuml.com/class-diagram
+class AlgoPokemons{
+       listp=[]
+       listA=[]
+       info={}
+       g=GraphAlgo()
+       client = Client()
+------------------
+line
+timeall
+timetoMove
+distance
+findEdge
+theRout
+RouteSrc
+firstLOC
+algoP
+json_pokemons
+json_Agents
+jsoninfo
+}
+
+class Client{
+start_connection
+get_agents
+add_agent
+get_graph
+get_info
+get_pokemons
+is_running
+time_to_end
+start
+stop
+move
+choose_next_edge
+log_in
+stop_connection
+}
+
+class DiGraph{
+sizeNode = 0
+sizeEdge = 0
+listNode = {}
+listEdge = {}
+------------------
+v_size
+e_size
+get_all_v
+all_in_edges_of_node
+all_out_edges_of_node
+get_mc
+add_edge
+add_node
+remove_node
+remove_edge
+}
+class GraphAlgo{
+Graph = DiGraph()
+-------------------
+get_graph
+load_from_json
+save_to_json
+shortest_path
+TSP
+centerPoint
+plot_graph
+
+}
+
+
+class Node{
+id = id
+pos = pos
+weight = 0
+tag = 0
+edgein = {}
+edgeout = {}
+}
+
+class Edge{
+weight = weight
+id1 = id1
+id2 = id2
+}
+interface GraphAlgoInterface
+interface GraphInterface
+
+GraphInterface <|-- DiGraph
+AlgoPokemons <|-- Client
+MyGUi <|--AlgoPokemons
+MyGUi <|--Client
+AlgoPokemons <|--GraphAlgo
+AlgoPokemons <|-- DiGraph
+
+GraphAlgoInterface<|-- DiGraph
+GraphAlgoInterface <|-- GraphAlgo
+  DiGraph    <|-- Node
+  DiGraph    <|-- Edge
+
+
+
+class MyGUi {
+ algo=AlgoPokemon()
+ client = Client()
+ ------------------
+ scale
+ min_max
+ torun
+ draw
+ DrawAgent
+ DrawPokemons
+ end
+ onClicked
+ RunAlgo
+ display
+
+ class Button{
+    color = color
+    txt = txt
+    fun = fun
+    rect = rect
+    isClicked = False
+    ------------------------
+    press
+
+
+
+
+}
+
+class Test {
+Test
+-------------
+TestDiGraph
+------------------
+TestGraphAlgo
+}
+
+
+@enduml
