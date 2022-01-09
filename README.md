@@ -1,6 +1,7 @@
 # oop_Ex4#
 WELCOM TO THE POKEMON GAME
 --------------------------
+The aim of the game is to collect as many Pokemon as possible in less move (maximum 10 moves per second) <br />
 ![image](https://user-images.githubusercontent.com/93676748/148678172-701e4099-6560-4f17-944e-ab5f318d4664.png) <br />
 class:
 ---------
