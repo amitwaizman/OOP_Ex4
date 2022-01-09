@@ -28,9 +28,20 @@ A class for the implementation of Pokemon placement to the agent, object: listp-
 **client:** <br />
 communicating with the "server" <br />
 ***MyGui***  <br />
-Displays the game. <br />
+Displays the game, object: algo=AlgoPokempn, client.. <br />
 Picatsu represents a Pokemon with type-1 meaning src> dest. <br />
 Chermander represents a Pokemon with type 1 i.e. src> dest. <br />
+-function: <br />
+* scale:Arranges the coordinates of the screen <br />
+* min_max: Adjusts the resolution of the screen <br />
+* torun: Loads the information and calls to AlgoPokemon. <br />
+* draw:Draws the graph <br />
+* drawAgent:Draws the agent. <br />
+* drawpokemons:Draws the pokemons. <br />
+* end: Prints game over at the end of the game. <br />
+* onClicked:Ends the game when the stop button is pressed. <br />
+* runAlgo:Running process of the Pokemon inlay algorithm. <br />
+* display:Introducing the game. <br />
 **main:**<br />
 Run the game <br />
 **Node:**<br />
