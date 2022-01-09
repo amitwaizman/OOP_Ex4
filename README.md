@@ -1,5 +1,6 @@
 # oop_Ex4#
-#WELCOM TO THE POKEMON GAMEֳֳ#
+WELCOM TO THE POKEMON GAMEֳֳ
+--------------------------
 class:
 ---------
 **Node:**<br />
