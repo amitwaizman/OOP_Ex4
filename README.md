@@ -12,7 +12,6 @@ A class that represents pokemons data, object: value, type, pos and tag.<br />
 **AlgoPoknem:**<br />
 A class for the implementation of Pokemon placement to the agent, object: listp- list of pokemons, listA- list of agents, info, g-GraphAlgo and client. <br />
 -function: <br />
-#y=mx+n
 *linel: The function gets 2 nodes and pos calculates the straight equation of the 2 nodes and returns true if the pos is on this equation and false otherwise. <br />
 *timeall:Returns the time it takes for the agent to reach Pokemon when it's in edge's src. <br />
 *timetoMove: Returns the time it takes for the agent to reach Pokemon <br />
