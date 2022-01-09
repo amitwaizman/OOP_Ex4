@@ -95,8 +95,26 @@ In addition, on the wiki page you can see a full explanation of how to run and a
 UML
 -----
 ![image](https://user-images.githubusercontent.com/93676748/148682245-038dac57-5301-4551-8e54-20a20776753c.png)
-
-
+Results
+-------
+| level | grade | moves |
+| ----- | ----- | ----- |
+| 0     | 147   | 199   |
+| 1     | 423   | 461   |
+| 2     | 158   | 224   |
+| 3     | 606   | 463   |
+| 4     | 175   | 225   |
+| 5     | 541   | 441   |
+| 6     | 79    | 244   |
+| 7     | 315   | 483   |
+| 8     | 85    | 235   |
+| 9     | 497   | 557   |
+| 10    | 105   | 224   |
+| 11    | 998   | 516   |
+| 12    | 40    | 244   |
+| 13    | 300   | 516   |
+| 14    | 226   | 264   |
+| 15    | 349   | 457   |
 
 
 
