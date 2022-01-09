@@ -42,7 +42,8 @@ Chermander represents a Pokemon with type 1 i.e. src> dest. <br />
 * onClicked:Ends the game when the stop button is pressed. <br />
 * runAlgo:Running process of the Pokemon inlay algorithm. <br />
 * display:Introducing the game. <br />
-* 
+* Class Button: A button that displays the stop button on the graph
+
 **main:**<br />
 Run the game <br />
 **Node:**<br />
