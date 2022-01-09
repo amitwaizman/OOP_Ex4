@@ -1,8 +1,32 @@
 # oop_Ex4#
-WELCOM TO THE POKEMON GAMEֳֳ
+WELCOM TO THE POKEMON GAME
 --------------------------
 class:
 ---------
+**Agents:**<br />
+A class that represents agents data, object: id, value, src, dest,speed and pos.<br />
+**pokemons:** <br />
+A class that represents pokemons data, object: value, type, pos and tag.<br />
+**AlgoPoknem:**<br />
+A class for the implementation of Pokemon placement to the agent, object: listp- list of pokemons, listA- list of agents, info, g-GraphAlgo and client. <br />
+-function: <br />
+#y=mx+n
+*linel: The function gets 2 nodes and pos calculates the straight equation of the 2 nodes and returns true if the pos is on this equation and false otherwise. <br />
+*timeall:Returns the time it takes for the agent to reach Pokemon when it's in edge's src. <br />
+*timetoMove: Returns the time it takes for the agent to reach Pokemon <br />
+*distance: Calculates the distance from the agent to the Pokemon <br />
+*findEdge: Finds the side that the Pokemon is on <br />
+*theRout: Calculates the distance of an agent to each Pokemon <br />
+*rS: Calculates the route to the src of the edge the Pokemon is on <br />
+*firstLOC:Returns the position of the src of the edge the Pokemon is on <br />
+*algoP: Places to the agent the Pokemon closest to him <br />
+*json_pokemons: Loading Pokemon from the server <br />
+*json_Agents: Loading agent from the server <br />
+*jsoninfo: Loading info from the server <br />
+**client:** <br />
+communicating with the "server"
+**main:**<br />
+Run the game
 **Node:**<br />
 A class that represents node data, object: id, pos, weight, tag and dict to edge in and dict to edge out. <br />
 **Edge:** <br />
