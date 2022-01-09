@@ -91,6 +91,7 @@ A class that test GraphAlgo function. <br />
 
 UML
 -----
+![image](https://user-images.githubusercontent.com/93676748/148682245-038dac57-5301-4551-8e54-20a20776753c.png)
 
 
 
