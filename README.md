@@ -42,34 +42,13 @@ A class that implements the interface GraphAlgoInterface, object: DiGraph Graph.
 *isFound: checks if the nodes in list a are in list b. <br />
 *Dijkstra: <br />
 We implemented the Dijkstra algorithm the algorithm gets a nodes src and updates שccording to the algorithm the weight of each nodes the minimum distance from src to the node,the algorithm returns a dictionary representing for each nodes the node that preceding in the path from the src to the node.<br />
-***TestDiGraph:***  <br />
-A class to check the DiGraph by unittest <br />
-***TestGraphAlgo:*** <br />
-A class to check the DiGraph by unittest  <br />
-***TestComperison:*** <br />
-A class that test the algorithms on A0-A5 file.  <br />
-***TestBigNUM:*** <br />
-A class that test the algorithms on 1000,10000,100000.  <br />
+***Test:***  <br />
+A class to check the AlgoPokmen by unittest <br />
 ***MyGui***  <br />
-This class displays the graph that is toned from the Jason file via the main in the class by the load function. <br />
-When we run the main the directed graph will be displayed: <br />
-![image](https://user-images.githubusercontent.com/93676748/147508005-a0aeb7aa-cac5-4959-8d24-5982e555f21e.png)
- <br />
-By pressing the center button you can see the center of the graph (painted in purple). <br />
 
-![image](https://user-images.githubusercontent.com/93676748/147507925-6269c39d-d0c5-41de-aca5-a8fe9d00ea9b.png)
- <br />
-After we ran check1:
-<br />
-![image](https://user-images.githubusercontent.com/93676748/147505134-d0a5e029-1952-41ab-954e-b7c4af31dc3d.png)
-<br />
-After we ran check2:
-<br />
-![image](https://user-images.githubusercontent.com/93676748/147505237-e5ad860d-8ad4-43af-9ca1-eaebec42e473.png)
 
 UML
 -----
-![image](https://user-images.githubusercontent.com/93676748/147506541-6f9021f8-b7f3-468f-9f04-23e6e2f2b98e.png)
 
 
 
