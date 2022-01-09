@@ -18,7 +18,7 @@ A class for the implementation of Pokemon placement to the agent, object: listp-
 *distance: Calculates the distance from the agent to the Pokemon <br />
 *findEdge: Finds the side that the Pokemon is on <br />
 *theRout: Calculates the distance of an agent to each Pokemon <br />
-*rS: Calculates the route to the src of the edge the Pokemon is on <br />
+*routrSrc: Calculates the route to the src of the edge the Pokemon is on <br />
 *firstLOC:Returns the position of the src of the edge the Pokemon is on <br />
 *algoP: Places to the agent the Pokemon closest to him <br />
 *json_pokemons: Loading Pokemon from the server <br />
