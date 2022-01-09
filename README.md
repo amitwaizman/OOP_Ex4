@@ -24,6 +24,7 @@ A class for the implementation of Pokemon placement to the agent, object: listp-
 *json_pokemons: Loading Pokemon from the server <br />
 *json_Agents: Loading agent from the server <br />
 *jsoninfo: Loading info from the server <br />
+
 **client:** <br />
 communicating with the "server" <br />
 ***MyGui***  <br />
