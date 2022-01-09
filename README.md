@@ -1,7 +1,7 @@
 # oop_Ex4#
 WELCOM TO THE POKEMON GAME
 --------------------------
-https://github.com/amitwaizman/OOP_Ex4/blob/main/image/imageOfGame.jpeg  <br />
+![image](https://user-images.githubusercontent.com/93676748/148678172-701e4099-6560-4f17-944e-ab5f318d4664.png) <br />
 class:
 ---------
 **Agents:**<br />
